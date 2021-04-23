@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Weather App</title>
+</head>
+<body>
+  <header id="search-nav">
+    <input class="input" type="text" placeholder="Enter Location">
+    <button class="search">Search</button>
+  </header>
+  <div class="container">
+    <div id="date-location">
+      <h3 class="date"></h3>
+      <h2 class="location"></h2>
+    </div>
+    <div id="weather">
+      <h1 class="temperature"></h1>
+      <img class="primary-img">
+      <h3 class="description"></h3>
+      <ul class="details">
+        <li>
+          <img>
+          <span class="span1">Humidity 93%</span>
+        </li>
+        <li>
+          <img>
+          <span class="span2"> vejas 5 km/h</span>
+        </li>
+        <li>
+          <img>
+          <span class="span3">nezinau 0%</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  <script src="js/storage.js"></script>
+  <script src="js/weather.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
