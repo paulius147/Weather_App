@@ -94,12 +94,12 @@ body {
 
 @media(min-width:750px) {
   .container {
-    width: 600px;
+    width: 700px;
   }
 }
 
 @media(min-height:750px) {
   .container {
-    height: 900px;
+    height: 700px;
   }
 }
