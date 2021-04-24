@@ -97,3 +97,9 @@ body {
     width: 600px;
   }
 }
+
+@media(min-height:750px) {
+  .container {
+    width: 600px;
+  }
+}
