@@ -94,8 +94,7 @@ body {
 
 @media(min-width:750px) {
   .container {
-/*     width: 700px; */
-    width: 80vw;
+    width: 700px;
   }
 }
 
