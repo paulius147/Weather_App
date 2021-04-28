@@ -98,8 +98,8 @@ body {
   }
 }
 
-@media(min-height:750px) {
+/* @media(min-height:750px) {
   .container {
     height: 700px;
   }
-}
+} */
